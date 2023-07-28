@@ -1,0 +1,327 @@
+/* /
+/
+/
+/
+/ 428px, 768px і 1158px.
+/
+/
+/
+/ */
+/* ==========MAIN PAGE========= */
+/* ==========MAIN PAGE========= */
+
+
+/* ==========HEADER========= */
+@media screen and (min-width:768px) {
+  .container {
+
+    max-width: 767px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+
+  }
+
+  .container-portfolio {
+    max-width: 767px;
+  }
+
+  .backlight-page::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: #404bbf;
+
+  }
+
+  .header {
+    background-color: var(--white-color);
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  .nav-items {
+    display: flex;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .mobile-menu-container {
+    display: none;
+  }
+
+  .btn-burger {
+    display: none;
+  }
+
+  .address {
+    display: flex;
+  }
+
+  .address>.address {
+    flex-direction: column;
+    row-gap: 12px;
+
+  }
+
+  .address-item {
+    margin-right: 0px;
+  }
+
+  .address-link {
+    padding: 0px;
+  }
+
+  .caption {
+    font-size: ;
+  }
+
+  /* ..............модальное окно  order service  */
+
+
+  .modal-window {
+    position: absolute;
+    top: 100px;
+    transform: translate(-50%, 0%);
+
+  }
+
+
+
+  /* ............../модальное окно  order service  */
+
+
+  /* ==========/HEADER========= */
+  /* ==========BANNER========= */
+  .section-banner {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    height: 436px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+      url(../images/main-page/backgrounds/tablet-bcg-1x.png);
+
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution:192dpi),
+  screen and (min-resolution: 2dppx) {
+    .section-banner {
+      background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)),
+        url(../images/main-page/backgrounds/tablet-bcg-@2x.png);
+    }
+
+
+
+  }
+
+
+  .caption {
+
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+  }
+
+
+
+
+  /* ==========/BANNER========= */
+  /* ==========GOAL========= */
+  .contaner-svg-goal {
+    display: none;
+
+  }
+
+  .items-our-goal {
+    display: flex;
+    row-gap: 72px;
+  }
+
+  .items-goal {
+
+    margin-right: 0px;
+
+    max-width: calc((100% - 24px) / 2);
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .subtitle {
+    font-weight: 500;
+
+  }
+
+  /* ==========/GOAL========= */
+  /* ==========OFFER========= */
+  .mobile-hidden {
+    display: none;
+  }
+
+  /* ==========/OFFER========= */
+  /* ==========TEAM========= */
+  .item-employee {
+    max-width: calc(100% - 24px / 2)
+  }
+
+  .items-employee {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  /* ==========/TEAM========= */
+  /* ==========CUSTOMER========= */
+  .customer-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+  }
+
+  .item-customer {
+    max-width: calc(100% - 48px / 3);
+  }
+
+  /* ==========/CUSTOMER========= */
+  /* ==========FOOTER========= */
+  .footer-content {
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+
+    width: 528px;
+    row-gap: 72px;
+
+
+
+
+  }
+
+  .social-title {
+    width: 100%;
+  }
+
+
+
+  .footer-wrap-text {
+    margin-right: auto;
+  }
+
+
+  /* @media screen and (min-width:526px) and (max-width:583px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  } */
+
+  /* @media screen and (min-width:585px) and (max-width:768px) {
+    .footer-content {
+      justify-content: flex-start;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .container {
+      margin: 0 auto;
+    }
+
+
+  } */
+
+
+
+  .sosial-media {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    align-items: center;
+    margin-left: 0px;
+
+  }
+
+  .social-title {
+    text-align: start;
+  }
+
+  .form-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer-form {
+    max-width: 453px;
+    margin-left: 0px;
+
+  }
+
+  .form-email {
+    width: 264px;
+
+  }
+
+  .logo-footer {
+    text-align: start;
+    width: 100%;
+  }
+
+  .subscribe-title-form {
+    width: 100%;
+  }
+
+  /* ==========/FOOTER========= */
+
+
+
+
+
+  /* ==========/MAIN PAGE========= */
+
+
+
+
+
+  /* ==========/PAGA-PORTFOLIO========= */
+  .logo {
+    margin-right: 120px;
+  }
+
+
+  /* ==========CARDS========= */
+  .portfolio-cards {
+    justify-content: space-between;
+    row-gap: 72px;
+  }
+
+  .portfolio-item {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 356px;
+    max-width: calc((100% - 24px) / 2);
+
+  }
+
+
+
+  /* ==========/CARDS========= */
+  /* ==========/PAGA-PORTFOLIO========= */
+
+  /* ==========HEADER========= */
+}
