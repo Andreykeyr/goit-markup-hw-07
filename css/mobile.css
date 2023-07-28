@@ -239,6 +239,11 @@
 
   }
 
+.unactive-page {
+  color: #2e2f42;
+}
+
+
   .mobile-menu-close-icon {
     fill: #2E2F42;
   }
@@ -249,7 +254,11 @@
       linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/main-page/backgrounds/mobile-bcg-1x.png);
-  }
+  padding: 112px 0px 112px 0px;
+  height: 432px;
+    }
+
+  
 
   @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution:192dpi),
@@ -278,6 +287,7 @@
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
+    margin-bottom: 72px;
 
     /* @media (max-width:409px) {
       font-size: 35px;
