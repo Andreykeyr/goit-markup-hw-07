@@ -506,7 +506,6 @@
 
   .buttons-items {
     flex-wrap: wrap;
-    justify-content: start;
     column-gap: 24px;
     row-gap: 16px;
 
